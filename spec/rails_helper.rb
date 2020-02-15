@@ -1,6 +1,6 @@
 require 'spec_helper'
 require 'coveralls'
-Coveralls.wear_merge!('rails')
+Coveralls.wear_merged!('rails')
 
 ENV['RAILS_ENV'] ||= 'test'
 
@@ -24,8 +24,8 @@ RSpec.configure do |config|
 end
 
 Shoulda::Matchers.configure do |config|
-  config.intergrate do |whit|
-    whit.test_framework :rspec
-    whit.library :rails 
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
   end
 end
