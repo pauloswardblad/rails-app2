@@ -1,6 +1,10 @@
-<p> a breaking news item </p>
-<p> some really breaking action </p>
-
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+       <%= article.title %><br />
+    </li>
+  <% end %>
+</ul>
 
 
 #HÄR KAN DU SKRIVA PÅ SIDAN SOM SYNS I LOCALHOST3000
