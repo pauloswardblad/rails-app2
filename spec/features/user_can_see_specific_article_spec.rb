@@ -3,7 +3,7 @@ require 'rails_helper'
 feature 'User can see specific article' do
     #context 'with articles in db' do
     before do
-        create(:article, title: 'a breaking news item', content: 'Some breaking action')
+        create(:article, title: 'a breaking news item', content: 'some breaking action')
         create(:article, title: 'Learn Rails 5', content: 'Build awesome rails applications')
 
         visit root_path
