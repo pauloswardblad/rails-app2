@@ -8,15 +8,5 @@
   <%= @article.content %>
 </p>
 
-=begin
-    
-rescue => exception
-    
-end
-<p><%= @article.title %></p>
-<p><%= @article.content %></p>
-=begin
-    
-rescue => exception
-    
-end
+<%= link_to 'Back', articles_path %>
+<%= link_to 'Edit', edit_article_path(@article) %>
