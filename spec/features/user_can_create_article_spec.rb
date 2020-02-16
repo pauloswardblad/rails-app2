@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'factory_bot'
 
 feature 'User can create articles' do
     before do
