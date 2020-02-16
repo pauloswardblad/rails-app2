@@ -12,11 +12,11 @@ feature 'User can see specific article' do
 
     context 'Article displays' do
         it 'title' do
-          expect(page).to have_content 'A breaking news item'
+          expect(page).to have_content 'a breaking news item'
         end
     
         it 'content' do
-          expect(page).to have_content 'Some breaking action'
+          expect(page).to have_content 'some breaking action'
         end
     end
 end
